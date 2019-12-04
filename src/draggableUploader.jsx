@@ -188,7 +188,7 @@ export default class DraggableUploader extends React.Component {
 
         })
         // open the request with the verb and the url
-        xhr.open('POST', 'http://127.0.0.1:5000/getSkeleton')
+        xhr.open('POST', 'https://yoga-classification-480.herokuapp.com/getSkeleton')
         xhr.setRequestHeader('Content-Type', 'application/json');
         // send the request
         console.log(loadedFiles[0]);
